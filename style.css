@@ -1,0 +1,11 @@
+@import url('colors/colors.css');
+
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+.menuNav{
+    color: #fff;
+    background-color: red;
+}
