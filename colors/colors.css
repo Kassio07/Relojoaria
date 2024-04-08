@@ -8,3 +8,9 @@
     --card-three:#FCF5EC;
     --destaque-text:#BA9476;
 }
+
+
+.row{
+    color: #fff;
+    background-color: red;
+}
