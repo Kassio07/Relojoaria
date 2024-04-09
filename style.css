@@ -21,3 +21,44 @@ body{
 a.nav-link{
     color: white;
 }
+
+.carousel-caption{
+    padding-bottom: 8.25rem;
+}
+
+.carousel-caption h5,p{
+    color: white;
+}
+.carousel-caption h5{
+    font-size: 4rem;
+}
+.carousel-caption p{
+    font-size: 2rem;
+}
+
+.carousel-indicators{
+    margin-bottom: 7rem;
+}
+#ajustBannerPQ{
+
+    
+}
+
+
+#ajustBannerPQ>img{
+    max-width: 40%;
+}
+.titleBanner{
+    font-size:2em;
+    text-transform: uppercase;
+    z-index: 11;
+}
+
+.one{
+    background-color: var(--card-one);
+}
+
+#ajustPqBanner{
+    position: relative;
+    bottom: 90px;
+}
