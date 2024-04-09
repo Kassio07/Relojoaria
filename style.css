@@ -9,3 +9,15 @@ body{
     color: #fff;
     background-color: red;
 }
+
+.row{
+    color: #fff;
+}
+
+#ajustColorNav{
+    background-color:var(--cor-navMenu);
+}
+
+a.nav-link{
+    color: white;
+}
