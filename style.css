@@ -62,3 +62,7 @@ a.nav-link{
     position: relative;
     bottom: 90px;
 }
+
+#ajustBannerPQ{
+    max-height: 450px;
+}
