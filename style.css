@@ -1,68 +1,39 @@
 @import url('colors/colors.css');
 
+#teste{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 body{
     background-color: var(--cor-fundo);
-}
-
-.menuNav{
-    color: #fff;
-    background-color: red;
 }
 
 .row{
     color: #fff;
 }
 
-#ajustColorNav{
-    background-color:var(--cor-navMenu);
+.col{
 }
 
-a.nav-link{
-    color: white;
+#textAjust{
+    text-align: end;
 }
 
-.carousel-caption{
-    padding-bottom: 8.25rem;
+#inputBuscar input[type="text"]{
+    background-color: transparent;
+    border-radius: 0;
+    color: #fff;
 }
 
-.carousel-caption h5,p{
-    color: white;
+#inputBuscar input[type="text"]::placeholder{
+    color: #fff;
 }
-.carousel-caption h5{
-    font-size: 4rem;
-}
-.carousel-caption p{
-    font-size: 2rem;
+.form-control{
+    color: #fff;
 }
 
-.carousel-indicators{
-    margin-bottom: 7rem;
-}
-#ajustBannerPQ{
-
-    
-}
-
-
-#ajustBannerPQ>img{
-    max-width: 40%;
-}
-.titleBanner{
-    font-size:2em;
-    text-transform: uppercase;
-    z-index: 11;
-}
-
-.one{
-    background-color: var(--card-one);
-}
-
-#ajustPqBanner{
-    position: relative;
-    bottom: 90px;
-}
-
-#ajustBannerPQ{
-    max-height: 450px;
+#menuLinks{
+    background-color: var(--cor-navMenu);
 }
