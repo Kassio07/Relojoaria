@@ -10,12 +10,13 @@ body{
     background-color: var(--cor-fundo);
 }
 
+.container{
+}
+
 .row{
     color: #fff;
 }
 
-.col{
-}
 
 #textAjust{
     text-align: end;
@@ -36,4 +37,25 @@ body{
 
 #menuLinks{
     background-color: var(--cor-navMenu);
+}
+
+.nav-link, a{
+    color: #fff;
+}
+
+div.conatiner-md{
+    padding: 0;
+}
+
+#ajustCard{
+    max-width: 300px;
+    height: auto;
+}
+
+.img-fluid{
+    height: 100%;
+}
+
+.on{
+    background-color: var(--card-one);
 }
