@@ -47,6 +47,10 @@ div.conatiner-md{
     padding: 0;
 }
 
+#inputBuscar input:focus{
+    box-shadow: none;
+}
+
 #ajustCard{
     max-width: 300px;
     height: auto;
@@ -58,4 +62,97 @@ div.conatiner-md{
 
 .on{
     background-color: var(--card-one);
+}
+
+.carousel-caption h5{
+    background-color: #000;
+    max-width: 500px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    line-height: 80px;
+    opacity: 0.5;
+    font-size: 3rem;
+}
+
+.carousel-caption{
+    margin-bottom: 80px;
+
+}
+
+.carousel-indicators{
+    margin-bottom: 80px;
+}
+
+.card{
+    max-width: 400px;
+    background-color: var(--card-one);
+    height: auto;
+    margin: 5px 10px;
+    top: -60px;
+    padding: 20px;
+}
+
+.imgAjust{
+    width: 150px;
+}
+
+.imgCard div{
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.twu{
+    background-color: var(--card-two);
+}
+
+.three{
+    background-color: var(--card-three);
+    color: #000;
+}
+
+.threeColor{
+    color: #000;
+}
+
+
+
+.section5color{
+    background-color: transparent;
+    border: none;
+}
+
+.colCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section5Title{
+    position: relative;
+    color: #fff;
+    top: 0;
+    margin-bottom: 110px;
+}
+
+.list-group-item{
+    background-color: transparent;
+    color: #fff;
+}
+
+.section5color{
+    text-align: center;
+}
+
+.card-text{
+    color: #fff;
+}
+
+.card-link{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+.largur{
+    height: 56%;
 }
