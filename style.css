@@ -202,3 +202,17 @@ div.conatiner-md{
 .element.style {
     width: 0rem;
 }
+
+.card-body{
+    flex: 0;
+}
+
+.titleG{
+    font-size: 1.7rem;
+    color: hsl(39, 60%, 50%);
+    /* flex-direction: column; */
+}
+
+#ajustImgFooter{
+    background-color: red;
+}
