@@ -216,6 +216,7 @@ div.conatiner-md{
     background-color: red;
     width: 100%;
     height: 50%;
+    border: 1px solid #fff;
 }
 .textP-footer{
     font-weight: normal;
