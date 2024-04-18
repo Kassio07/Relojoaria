@@ -1,1 +1,1 @@
-<a href="https://github.com/Kassio07/Relojoaria"> Projeto </a>
+<a href="https://kassio07.github.io/Relojoaria/"> Projeto </a>
