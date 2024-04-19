@@ -31,21 +31,26 @@
             /* height: 50px; */
         }
 
-        .col-3{
+        .col{
           border: 2px dashed blue;
         }
-        .col-8{
+        .col{
           border: 2px dashed blue;
+        }
+
+        .col-md-4{
+          border: 2px dashed orange;
+
         }
     </style>
 </head>
 <body>
     <div class="container-md">
         <div class="row m-2 align-items-center">
-            <div class="col-3 text-center">
+            <div class="col text-center">
               logo
             </div>
-            <div class="col-8 m-2">
+            <div class="col-11 m-2">
               <ul class="nav justify-content-end">
                 <li class="nav-item"><a href="#" class="nav-link">Link-1</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Link-2</a></li>
@@ -55,5 +60,50 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+          1 of 3
+        </div>
+        <div class="col-md-auto">
+          Variable width content
+        </div>
+        <div class="col col-lg-2">
+          3 of 3
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">col-sm-8</div>
+        <div class="col-sm-4">col-sm-4</div>
+      </div>
+      <div class="row">
+        <div class="col-sm">col-sm</div>
+        <div class="col-sm">col-sm</div>
+        <div class="col-sm">col-sm</div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>  
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+    
 </body>
 </html>
